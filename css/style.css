@@ -1,0 +1,226 @@
+/****************fonts-start*****************/
+@font-face{
+	src:url(../fonts/PT_Sans/PTSans-Regular.ttf);
+	font-family:PTSans-Regular;
+}
+@font-face{
+	src:url(../fonts/PT_Sans/PTSans-Bold.ttf);
+	font-family: PTSans-Bold;
+}
+
+/******************fonts-end***********************/
+/******************common start***********************/
+body{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400px;
+	color: #010101;
+}
+/******************common-end***********************/
+/***************header start***************/
+header{
+	background-color: #FCDB00;
+	padding:15px 0px ;
+}
+.carousel-custom{}
+.l-img{}
+.menu{}
+.menu ul li a{ 
+	font-size: 22px;
+	font-weight: 700px;
+	color:#010101 !important;
+	padding:0 30px !important;
+
+}
+.menu ul li:last-child a{
+	padding-right: 0 !important;
+}
+.menu ul li a:hover{
+	color: #FFFFFF !important;
+	
+}
+/*slider start*/
+.slider{
+	background-color: #FCDB00;
+}
+.slider-text{
+	margin-top: 100px;
+}
+.slider-text h1{
+	margin: 15px 0px;
+	font-size: 32px;
+	font-weight: 700px;
+	color: #010101;
+}
+.slider-text h3,.slider-text p{
+	margin: 20px 0px;
+	font-weight: 400px;
+	color: #010101;
+}
+.slider-text h3{
+	font-size: 22px;
+}
+.slider-text p{
+	font-size: 17px;
+}
+.slider-font li{
+	padding: 15px;
+	font-size: 40px;
+}
+.slider-font:last-child li{
+	padding-left: 0px;
+}
+.s-img{
+	margin-top: 40px;
+	margin-bottom: 120px;
+    margin-left: 20%;
+    border-radius: 20px;
+	
+}
+.custom-class [data-bs-target] {
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+}
+/*slider end*/
+/*Tinyone features start*/
+/*features top*/
+.features{
+	margin-top: 100px;
+	margin-bottom: 150px;
+}
+.f-top{
+	margin-bottom: 90px;
+}
+.f-t-header{
+	font-family: 'PT Sans', sans-serif;
+	font-size: 50px;
+	font-weight: 700px;
+	color: #010101;
+}
+.f-t-pera{
+	font-size: 27px;
+	font-weight: 400px;
+	color: #313841;
+}
+/*features bttom*/
+.icon i{
+	font-weight: 400px;
+	font-size: 36px;
+}
+
+.f-b-text{
+	margin-left:-18%;
+}
+.f-b-text h3{
+	font-size: 22px;
+	font-weight: 400px;
+	color: #010101;
+}
+.f-b-text p{
+	font-size: 16px;
+	font-weight: 400px;
+	color: #898989;
+}
+/*Tinyone features end*/
+/*footer start*/
+
+.custom-pera{
+	font-size: 27px;
+	font-weight: 400px;
+	color: #898989;
+}
+.custom-css{
+	font-size: 50px;
+	font-weight: 400px;
+	color: #FCDB00;
+}
+footer{
+	background-color: #010101;
+}
+.footer{
+	overflow: hidden;
+	
+}
+.c-btn{
+	border: none;
+	min-width: 110px;
+	min-height: 50px;
+	margin-left: 15%;
+	background-color: #FCDB00;
+	color: black;
+}
+.c-btn:hover{
+	background-color: #FFFFFF;
+	color: black;
+	transition: .4s;
+}
+.custom-form{
+	min-height: 50px;
+	background-color: #FFFFFF;
+}
+.socialmedia{
+	margin-top: 70px;
+	text-align: center;
+	overflow: hidden;
+}
+.socialmedia ul{
+	display: block;
+	overflow: hidden;
+}
+.socialmedia ul li{
+	list-style: none;
+	margin-right: 35px;
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    background: #FCDB00;
+    border-radius: 5px;
+    transition: .4s;
+}
+.socialmedia ul li:hover{
+	background-color: #FFFFFF;
+	transition: .4s;
+}
+}
+.socialmedia ul li{
+	color: #ffff;
+	padding: 5px 0;
+}
+.socialmedia ul li a{
+	text-decoration: none;
+	color: #010101;
+	padding: 0px 13px;
+}
+.socialmedia ul li a:hover{
+	color: #4C5B62;
+	transition: .4s;
+}
+
+.footer-item2{
+	margin-top: 50px;
+	float: left;
+}
+.b-menu{}
+.b-menu ul{}
+.b-menu ul li{
+	list-style: none;
+}
+.b-menu ul li a{
+	overflow: hidden;
+	text-decoration: none;
+	color: #FFFFFF;
+	padding: 2px 0;
+	display: inline-block;
+	font-size: 24px;
+
+	transition: .4s;
+}
+.b-menu ul li a:hover{
+	color:  #FCDB00;
+	transition: .4s;
+}
+.undo{
+	margin-bottom: 130px;
+}
